@@ -1,6 +1,10 @@
 Poe Storytelling Engine
 ======================
 
+## Demo
+
+* <http://matehackers.github.com/poe>
+
 ## How to Run
 
 Include `/engine/poe.js` in a webpage and load a new story using:
