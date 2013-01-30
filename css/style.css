@@ -1,0 +1,60 @@
+/*
+    Let's keep things simple stupids
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* I don't know how to use that very well */
+@media (max-width: 480px)
+{
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:480px) and (max-width: 1200px);
+{
+    body {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    body {
+        font-size: 64px;
+    }
+}
+
+#engineContent {
+    height: 95%;
+    width: 100%;
+}
+
+#engineImage {
+    height: 65%;
+}
+
+#engineImage img {
+    height: 100%;
+    width: 100%;
+}
+
+#engineText {
+    height: 28%;
+}
+
+#engineText p {
+    text-align: justify-center;
+    padding: 1em 1em 1em 1em;
+}
+
+#buttonNext {
+    margin-right: 2em;
+    float: right;
+}

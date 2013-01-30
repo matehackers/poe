@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poe Engine</title>
+    <meta name="author" content="Poe Storytelling Engine" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+     <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="/engine/poe.js" type="text/javascript"></script>
+
+</head>
+<body onload="story = new Story; story.load('example');">
+
+<div id="header">
+</div>
+
+<div id="engineContent">
+
+    <div id="engineImage">
+        <img id="currentImage" />
+    </div>
+
+    <div id="engineText">
+        <p id="currentText">
+        </p>
+    </div>
+
+    <div id="engineControls">
+        <!-- <input type="button" value="<" id="buttonPrevious" onClick="story.previousPage();" /> -->
+        <input type="button" value="Next -->" id="buttonNext" onClick="story.nextPage();" />
+    </div>
+
+</div>
+
+</body>
+</html>

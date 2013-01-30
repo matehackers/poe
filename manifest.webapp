@@ -1,0 +1,13 @@
+{
+  "name": "Poe",
+  "description": " Storytelling Engine - Create your own stories",
+  "launch_path": "/",
+  "icons": {
+    "128": "icon.png"
+  },
+  "developer": {
+    "name": "Matehackers",
+    "url": "http://matehackers.org"
+  },
+  "default_locale": "en"
+}

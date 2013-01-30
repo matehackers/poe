@@ -1,0 +1,14 @@
+{
+    "main" : [
+        { "type" : "img", "value" : "tap.png" },
+        "Vou contar a história do Mexilhão feio.",
+        "Lá vai ...",
+        "Era uma vez um mexilhão feio.",
+        "Ele era tão feio que um dia...",
+        { "type" : "img", "value" : "negatap.png" },
+        "... TODO MUNDO MORREU!",
+        { "type" : "img", "value" : "tap.png" },
+        "Acabou :)",
+        { "type" : "goto", "value" : "main" }
+    ] 
+}
